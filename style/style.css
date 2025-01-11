@@ -7,7 +7,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Fira Sans", serif; ;
+    font-family: "Fira Sans", serif;
 }
 
 .primary-color{
@@ -15,6 +15,9 @@
 }
 
 /* header  */
+/* header{
+    background-color: #FFFFFF;
+} */
 
 /* nav  */
 .max-width{
@@ -35,7 +38,7 @@ nav{
     font-size: 32px;
 }
 
-button.btn{
+.nav-button > button.btn{
     background-color: #fff;
     color: #006A50;
     padding: 14px 30px;
@@ -43,6 +46,44 @@ button.btn{
     font-weight: 600;
     border: 1px solid #006A50;
     border-radius: 8px;
+}
+
+/* banner  */
+.banner{
+    background-color: #C6E4D6;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.banner-content{
+
+}
+
+.banner-content > .subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    color: #585858;
+    padding: 10px 40px;
+}
 
 
+.banner-content > .title{
+    font-size: 36px;
+    padding: 10px 40px;
+}
+
+.banner-btn{
+    padding: 10px 40px;
+}
+.banner-btn > .btn{
+    background-color: #006A50;
+    color: #fff;
+    padding: 17px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
 }
