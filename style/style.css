@@ -1,17 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montez&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montez&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Fira Sans", serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans", serif;
 }
 
-.primary-color{
-    color: #006A50;
+.primary-color {
+  color: #006a50;
 }
 
 /* header  */
@@ -20,70 +16,118 @@
 } */
 
 /* nav  */
-.max-width{
-    width: 1280px;
-    margin: auto;
+.max-width {
+  width: 1280px;
+  margin: auto;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
 }
 
-.nav-title h1{
-    padding: 20px 0;
-    font-size: 32px;
+.nav-title h1 {
+  padding: 20px 0;
+  font-size: 32px;
 }
 
-.nav-button > button.btn{
-    background-color: #fff;
-    color: #006A50;
-    padding: 14px 30px;
-    font-size: 18px;
-    font-weight: 600;
-    border: 1px solid #006A50;
-    border-radius: 8px;
+.nav-button > button.btn {
+  background-color: #fff;
+  color: #006a50;
+  padding: 14px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #006a50;
+  border-radius: 8px;
 }
 
 /* banner  */
-.banner{
-    background-color: #C6E4D6;
-    padding: 100px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 25px;
+.banner {
+  background-color: #c6e4d6;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  margin-bottom: 50px;
 }
 
-.banner-content{
-
+.banner-content {
 }
 
-.banner-content > .subtitle{
-    font-size: 24px;
-    font-weight: 500;
-    color: #585858;
-    padding: 10px 40px;
+.banner-content > .subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  color: #585858;
+  padding: 10px 40px;
 }
 
-
-.banner-content > .title{
-    font-size: 36px;
-    padding: 10px 40px;
+.banner-content > .title {
+  font-size: 36px;
+  padding: 10px 40px;
 }
 
-.banner-btn{
-    padding: 10px 40px;
+.banner-btn {
+  padding: 10px 40px;
 }
-.banner-btn > .btn{
-    background-color: #006A50;
-    color: #fff;
-    padding: 17px 30px;
-    font-size: 18px;
-    font-weight: 500;
-    border: none;
-    border-radius: 8px;
+.banner-btn > .btn {
+  background-color: #006a50;
+  color: #fff;
+  padding: 17px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+}
+
+/* future  */
+.future-title > h1 {
+  font-size: 40px;
+  padding: 10px 0;
+}
+
+.future-description > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #585858;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+.cards {
+  width: 350px;
+  padding: 30px;
+  margin: 50px 0;
+  border-radius: 15px;
+}
+.bg-blue {
+  background-color: #548ff53b;
+}
+.bg-green {
+  background-color: #006a504f;
+}
+.bg-yellow {
+  background-color: #ffc43949;
+}
+
+.card-title > h3 {
+  font-size: 24px;
+  padding: 20px 0 10px 0;
+}
+.card-description > p {
+  font-size: 16px;
+  padding: 20px 0;
+  line-height: 1.5;
+}
+
+.card-btn > .btn {
+  background-color: #5490f5;
+  color: #c6e4d6;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
 }
