@@ -397,3 +397,40 @@ nav {
   border: none;
   border-radius: 8px;
 }
+
+/* newsletter */
+.newsletter{
+  text-align: center;
+  padding: 50px 0;
+  background-color: #006a506e;
+  border-radius: 10px;
+}
+
+.newsletter-title h1 {
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.newletter-subtitle p{
+  padding-bottom: 30px;
+}
+
+input#email {
+  width: 50%;
+  padding: 15px 0;
+  padding: 20px ;
+}
+
+button.subscribe-btn {
+  font-size: 18px;
+  padding: 21px 25px;
+  margin-left: -10px;
+}
+
+button.subscribe-btn {
+  font-size: 16px;
+  padding: 16px 30px;
+  margin-left: -5px;
+  background-color: green;
+  border: none;
+}
