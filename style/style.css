@@ -235,3 +235,165 @@ nav {
 }
 
 
+/* Donate  */
+.donate{
+  padding: 100px 0;
+}
+
+.donate-title{
+  font-size: 28px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.donate-description{
+  text-align: center;
+}
+
+
+
+
+.money-details{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0;
+
+}
+
+.money-box1{
+  background-color: #ffffff;
+  border: 1px solid #cecece;
+  width: 240px;
+  border-radius: 10px;
+}
+.money-box1:hover{
+  background-color: #006a50;
+  color:rgb(155, 43, 43);
+  transition: all 0.5s;
+}
+.money-box1 h2{
+  padding: 40px;
+  color: #030303;
+  text-align: center;
+}
+
+.money-box1{
+  background-color: #ffffff;
+  border: 1px solid #585858;
+  width: 240px;
+}
+
+.money-box1 h2:hover{
+  color: #ffffff;
+  transition: all 0.5s;
+}
+
+/* box2  */
+.money-box2{
+  background-color: #006a50;
+  border: 1px solid #585858;
+  width: 240px;
+  border-radius: 10px;
+}
+
+.money-box2:hover{
+  background-color: #ffffff;
+  color:rgb(155, 43, 43);
+  transition: all 0.5s;
+}
+
+.money-box2 h2{
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.money-box2 h2:hover{
+  color: #080808;
+  transition: all 0.5s;
+}
+
+
+
+/* box3 */
+
+
+.money-box3{
+  /* background-color: #006a50; */
+  border: 1px solid #585858;
+  width: 240px;
+  border-radius: 10px;
+}
+.money-box3:hover{
+  background-color: #006a50;
+  color:black;
+  transition: all 0.5s;
+}
+
+.money-box3 h2{
+  padding: 40px;
+  color: black;
+  text-align: center;
+}
+
+.money-box3 h2:hover{
+  color: #fff;
+  transition: all 0.5s;
+}
+
+/* box4 */
+
+.money-box4{
+  /* background-color: #006a50; */
+  border: 1px solid #585858;
+  width: 240px;
+  border-radius: 10px;
+}
+.money-box4:hover{
+  background-color: #006a50;
+  color:black;
+  transition: all 0.5s;
+}
+.money-box4 h2{
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+}
+.money-box4 h2{
+  padding: 40px;
+  color: black;
+  text-align: center;
+}
+
+.money-box4 h2:hover{
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.other-amount{
+  padding: 30px 0 10px 0;
+}
+
+.other-amount input{
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+}
+
+.donate-button{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.donate-btn{
+  background-color: #006a50;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+}
